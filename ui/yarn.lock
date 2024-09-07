@@ -1434,10 +1434,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@monokle/validation@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@monokle/validation/-/validation-0.15.1.tgz#ec4e494665048c19c341add5d9a9aa6d66682bec"
-  integrity sha512-fJVKTgJ0+NiZ5Niu6aUQwtbUrLDV48jCh1/yQNQpLFYtIr7iRabbD6AJknHMjwHxR3XABUzgwcuvYYxHlNvajg==
+"@monokle/validation@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@monokle/validation/-/validation-0.16.0.tgz#3f27400f50fdef463000d962dbe678ec2ef252aa"
+  integrity sha512-BSuAFzxffNGObHywTpYStYxTzzFYpXekQ8ciQBUZUdTjFCjBCbPMTXjperORTJY0zIPohUmtsse6jfxVcUnw4A==
   dependencies:
     "@open-policy-agent/opa-wasm" "1.8.0"
     "@rollup/plugin-virtual" "3.0.1"
@@ -1446,9 +1446,10 @@
     isomorphic-fetch "3.0.0"
     lodash "4.17.21"
     node-fetch "3.3.0"
+    react-fast-compare "3.2.1"
     require-from-string "2.0.2"
     rollup "3.18.0"
-    yaml "2.1.1"
+    yaml "2.2.2"
     zod "3.19.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -6501,12 +6502,12 @@ monaco-editor@^0.33.0:
   resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.33.0.tgz#842e244f3750a2482f8a29c676b5684e75ff34af"
   integrity sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==
 
-monaco-kubernetes@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/monaco-kubernetes/-/monaco-kubernetes-0.2.2.tgz#d6ae0fc4e7c8f43640f47131cd15b56f9bd7aceb"
-  integrity sha512-nw7QfoIIRkSDPW2VyX6ub1vd/HmP9KPy0ZNqEMLavrXLGdZmPD9C8eLZqNruF3edkXUqkk69ZNQmxXeJS7ZIvg==
+monaco-kubernetes@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/monaco-kubernetes/-/monaco-kubernetes-0.2.3.tgz#887adf7d37e5ab04073655b4cc81ab98f635dcee"
+  integrity sha512-+pPaO7cXX5odElrvmGM6HGapN2Rb/yYYjLA56c2TFBiQJzonX0JWAG5KPYXIjJ1C3vzKs7byfP/ewm8DzIcA9A==
   dependencies:
-    "@monokle/validation" "^0.15.1"
+    "@monokle/validation" "^0.16.0"
     "@types/json-schema" "^7.0.0"
     jsonc-parser "^3.0.0"
     monaco-marker-data-provider "^1.0.0"
@@ -7861,6 +7862,11 @@ react-dom@^16.9.3:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-fast-compare@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.1.tgz#53933d9e14f364281d6cba24bfed7a4afb808b5f"
+  integrity sha512-xTYf9zFim2pEif/Fw16dBiXpe0hoy5PxcD8+OwBnTtNLfIm3g6WxhKNurY+6OmdH1u6Ta/W/Vl6vjbYP1MFnDg==
 
 react-fast-compare@^2.0.2:
   version "2.0.4"
@@ -10037,10 +10043,10 @@ yaml-ast-parser@0.0.43:
   resolved "https://registry.yarnpkg.com/yaml-ast-parser/-/yaml-ast-parser-0.0.43.tgz#e8a23e6fb4c38076ab92995c5dca33f3d3d7c9bb"
   integrity sha512-2PTINUwsRqSd+s8XxKaJWQlUuEMHJQyEuh2edBbW8KNJz0SJPwUSD2zRWqezFEdN7IzAgeuYHFUCF7o8zRdZ0A==
 
-yaml@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.1.1.tgz#1e06fb4ca46e60d9da07e4f786ea370ed3c3cfec"
-  integrity sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==
+yaml@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.2.2.tgz#ec551ef37326e6d42872dad1970300f8eb83a073"
+  integrity sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==
 
 yaml@^1.10.0, yaml@^1.10.2:
   version "1.10.2"
